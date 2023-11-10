@@ -5,7 +5,7 @@ const app = new Elysia()
 
 app.use(api)
 
-const port = process.env.PORT || 5000
+const port = process.env.PORT || 5001
 
 app.listen(port);
 
