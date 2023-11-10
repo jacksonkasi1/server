@@ -8,7 +8,6 @@ api.get("/posts", () => postController.getPosts);
 
 api.get("/", (e) => {
     console.log({e});
-    return postController.getPosts);
 });
 
 export default api;
